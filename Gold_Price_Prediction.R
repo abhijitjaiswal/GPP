@@ -1,5 +1,5 @@
 gold_price_dates <- timeBasedSeq('1979-01-02::2018-10-19')
-gold <- read.csv("/Users/abhijitj/Downloads/GoldPrices.csv")
+gold <- read.csv("GoldPrices.csv")
 #gold$Indian.rupee <- gold$Indian.rupee * 0.0311035
 prices <- c()
 for(i in seq(1, length(gold_price_dates))){
